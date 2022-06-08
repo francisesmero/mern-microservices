@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+input{
+  width:200px;
+  height:30px;
+  font-size:12px;
+  margin:5px;
+}
+
+
+
+.submit_button{
+  width:210px;
+  height:30px;
+  margin-top:5px;
+  background-color:#ff3e3e;
+  color:white;
+  border:none;
+}
+
+.submit_button:hover{
+  background-color:#c02727;
+  cursor: pointer;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #9e9e9e;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.days_ate{
+  text-align: center;
+}
+
+.delete_button{
+  margin-left:5px;
+  margin-right:5px;
+  width:100px;
+  height:30px;
+  margin-top:5px;
+  background-color:#f13f3f;
+  color:white;
+  border:none;
+}
+
+.delete_button:hover{
+  background-color:#c02727;
+  cursor: pointer;
+}
+
+.update_button{
+  margin-left:5px;
+  margin-right:5px;
+  width:100px;
+  height:30px;
+  margin-top:5px;
+  background-color:#00a854;
+  color:white;
+  border:none;
+}
+
+.update_button:hover{
+  background-color:#00773c;
+  cursor: pointer;
+}
